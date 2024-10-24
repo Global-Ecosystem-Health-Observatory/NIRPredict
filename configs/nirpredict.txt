@@ -1,0 +1,24 @@
+# settings for NIR Predictor
+
+data-folder = /scratch/project_2008436/rahmanan/dead_trees/Finland/RGBNIR/25cm
+
+hdf5-file = Finland_RGB_25cm.h5
+
+model = nirpredict
+
+output-dir = output/nirpredict
+
+train-crop-size = 256
+val-crop-size = 256
+test-crop-size = 256
+
+train-batch-size = 16
+val-batch-size = 16
+test-batch-size = 16
+
+epochs = 100
+
+val-size = 0.2
+test-size = 0.1
+
+resume = False
